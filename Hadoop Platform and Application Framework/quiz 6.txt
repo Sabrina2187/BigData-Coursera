@@ -1,12 +1,18 @@
-Q:Which of the following are valid access mechanisms for HDFS
-A:Accessed via Java API,Accessed via HTTP
+Q. Which of the following are valid access mechanisms for HDFS
+  A:Accessed via Java API,Accessed via HTTP
 
-invalid command:
-cp -r /user/data /user/test/
+Q. Which of the following is not a valid command to handle data in HDFS?
+  A: cp -r /user/data /user/test/
 
+Q. Which of the following commands will give information on the status of DataNodes
+  A: hdfs dfsadmin -report
 
-to get status: hdfs dfsadmin -report
+Q. Which of the following is not a method in FSDataInputStream
+  A: hflush
 
+Q. You can only read data in HDFS via HTTP
+  A: False
 
-
-Which of the following is not a method in FSDataInputStream:
+Q.What are some webhdfs REST API related parameters in HDFS
+  A: dfs.webhdfs.enabled
+  A:dfs.web.authentication.kerberos.keytab
